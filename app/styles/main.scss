@@ -21,6 +21,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   padding: 0.2em 0;
 }
 
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
@@ -38,6 +39,7 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
+
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -66,7 +68,20 @@ body {
   .btn {
     font-size: 21px;
     padding: 14px 24px;
+
+    h1{
+      color:white;
+    }
   }
+}
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* Supporting marketing content */
