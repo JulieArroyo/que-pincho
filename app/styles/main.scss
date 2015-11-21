@@ -26,6 +26,11 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background: url(../images/pinchoPic.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -62,27 +67,16 @@ body {
 }
 
 /* Main marketing message and sign up button */
+
 .jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
 
-    h1{
-      color:white;
-    }
-  }
-}
-#bg {
-  position: fixed;
-  top: 0;
-  left: 0;
 
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+	.container {
+		padding-top: 100px;
+	}
 }
+
+
 
 /* Supporting marketing content */
 .marketing {
