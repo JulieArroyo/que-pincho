@@ -42,7 +42,7 @@ module.exports = function (grunt) {
      pages: {
        options: {
          remote: 'git@github.com:JulieArroyo/que-pincho.git',
-         branch: 'master'
+         branch: 'gh-pages'
        }
      }
    },
