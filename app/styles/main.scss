@@ -72,7 +72,6 @@ body {
   height:400px;
   width:200px;
   background: rgba(200, 54, 54, 0.5);
-  color:white;
 }
 
 
@@ -90,6 +89,8 @@ body {
 
 /* Supporting marketing content */
 .marketing {
+  color:white;
+
   margin: 40px 0;
   p + h4 {
     margin-top: 28px;
